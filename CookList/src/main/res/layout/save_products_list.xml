@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/tvListNameAtSavedProducts"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:background="@drawable/header"
+        android:textColor="@color/white"
+            />
+
+    <TextView
+            android:id="@+id/tvSumOfSelectedProducts"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+           />
+    <TextView
+            android:id="@+id/tvNumberOfProducts"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+        android:gravity="left"
+        android:textAllCaps="true"
+        android:textColor="@color/greysh"
+            android:text="@string/tv_save_products_list_number_of_products"
+            />
+
+    <ListView
+            android:id="@+id/lwSelectedProducts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+            />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_edit_list_product_brand"
+            />
+
+    <EditText
+            android:id="@+id/etEditListProductBrandDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:weightSum="100"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="50"
+                >
+            <TextView
+                    android:id="@+id/tvEditListProductQuantyDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+
+                    android:text="@string/tv_edit_list_product_quantity"
+                    />
+            <EditText
+                    android:id="@+id/etEditListProductQuantityDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="50"
+                >
+            <TextView
+                    android:id="@+id/tvEditListProductQuantyUnitsDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:text="@string/tv_edit_list_product_units"
+                    />
+            <EditText
+                    android:id="@+id/etEditListProductQuantityUnitsDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:weightSum="100"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="50"
+
+                >
+            <TextView
+                    android:id="@+id/tvEditListProductPriceDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:text="@string/tv_edit_list_product_price"
+
+                    />
+            <EditText
+                    android:id="@+id/etEditListProductPriceDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="50"
+                >
+            <TextView
+                    android:id="@+id/tvEditListProductPriceCurencyDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+
+                    android:text="@string/tv_edit_list_product_currency"
+                    />
+            <EditText
+                    android:id="@+id/etEditListProductPriceCurencyDialog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

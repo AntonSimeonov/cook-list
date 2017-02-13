@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fatzombie.cooklist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name="com.fatzombie.cooklist.DAndDActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.fatzombie.cooklist.MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.MainMenu" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.SavePeoductsList"
+            android:parentActivityName="com.fatzombie.cooklist.DAndDActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.DAndDActivity" />
+            </activity>
+        <activity android:name="com.fatzombie.cooklist.TestDB" >
+        </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.DeleteListProducts"
+            android:parentActivityName="com.fatzombie.cooklist.SavePeoductsList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.SavePeoductsList" />
+            </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.MyActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.fatzombie.cooklist.NewList"
+            android:parentActivityName="com.fatzombie.cooklist.MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.RedyListproducts"
+            android:parentActivityName="com.fatzombie.cooklist.SavedListsTestActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.SavedListsTestActivity" />
+        </activity>
+        <activity android:name="com.fatzombie.cooklist.MainMenu" >
+        </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.SavedLists"
+            android:parentActivityName="com.fatzombie.cooklist.MainMenu" />
+        <activity
+            android:name="com.fatzombie.cooklist.SavedListsTestActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.fatzombie.cooklist.MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.MainMenu" />
+            </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.ExecuteList"
+            android:parentActivityName="com.fatzombie.cooklist.SavedListsTestActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.SavedListsTestActivity" />
+        </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.SendListAsEmail"
+            android:parentActivityName="com.fatzombie.cooklist.SavedListsTestActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.SavedListsTestActivity" />
+            </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.Test2"
+           />
+        <activity android:name="com.fatzombie.cooklist.Welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fatzombie.cooklist.DeleteLists"
+            android:parentActivityName="com.fatzombie.cooklist.Settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.Settings" />
+            </activity>
+        <activity android:name="com.fatzombie.cooklist.Settings" />
+        <activity android:name="com.fatzombie.cooklist.DeleteProductName"
+            android:parentActivityName="com.fatzombie.cooklist.Settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.Settings" />
+            </activity>
+        <activity android:name="com.fatzombie.cooklist.AdminDeleteItems"
+            android:parentActivityName="com.fatzombie.cooklist.Settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.Settings" />
+            </activity>
+        <activity
+            android:name="com.fatzombie.cooklist.AdminItems"
+            android:label="@string/title_activity_admin_items"  android:parentActivityName="com.fatzombie.cooklist.Settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fatzombie.cooklist.Settings" />
+        </activity>
+    </application>
+
+</manifest>

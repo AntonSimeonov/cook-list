@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Meat</item>
+        <item>Cheese</item>
+        <item>Milk</item>
+        <item>Eggs</item>
+        <item>Salads</item>
+        <item>Baked goods</item>
+        <item>Sea food</item>
+        <item>Junk food</item>
+        <item>Sauces</item>
+        <item>Spices</item>
+        <item>Candies</item>
+        <item>Beverages</item>
+        <item>Alcohol</item>
+    </string-array>
+
+    <string-array name="p_vegetables">
+        <item>Potatoes</item>
+        <item>Carrots</item>
+        <item>Tomatoes</item>
+        <item>Peppers</item>
+        <item>Onion</item>
+        <item>Cucumbers</item>
+        <item>Broccoli</item>
+        <item>Garlic</item>
+        <item>Beans</item>
+        <item>Mushroom</item>
+        <item>Asparagus</item>
+        <item>Cauliflower</item>
+        <item>Olive</item>
+        <item>Cabbage</item>
+        <item>Eggplant</item>
+    </string-array>
+
+    <string-array name="p_fruits">
+        <item>Apples</item>
+        <item>Bananas</item>
+        <item>Orange</item>
+        <item>Lemon</item>
+        <item>Apricot</item>
+        <item>Peaches</item>
+        <item>Plum</item>
+        <item>Melon</item>
+        <item>Mandarin</item>
+        <item>Watermelon</item>
+        <item>Grape</item>
+        <item>Kiwi</item>
+        <item>Grapefruit</item>
+        <item>Cherry</item>
+        <item>Blackberry</item>
+        <item>Blueberry</item>
+        <item>Coconut</item>
+    </string-array>
+
+    <string-array name="p_meat">
+        <item>Chicken</item>
+        <item>Pork</item>
+        <item>Veal</item>
+        <item>Rabbit</item>
+        <item>Lamb</item>
+        <item>Duck</item>
+        <item>Goose</item>
+        <item>Turkey</item>
+        <item>Sausages</item>
+        <item>Salami</item>
+    </string-array>
+
+    <string-array name="p_cheese">
+        <item>Blue cheese</item>
+        <item>Gorgonzola</item>
+        <item>Swiss cheese</item>
+        <item>Cream cheese</item>
+        <item>Camembert</item>
+        <item>Roquefort</item>
+        <item>Mozzarella</item>
+        <item>Brie</item>
+        <item>Provolone</item>
+        <item>Feta</item>
+        <item>Sharp cheddar</item>
+        <item>Monterey Jack</item>
+    </string-array>
+
+   <string-array name="p_milk">
+       <item>Milk</item>
+       <item>Butter</item>
+       <item>Yogurt</item>
+       <item>Cream</item>
+       <item>Curd</item>
+       <item>Custard</item>
+   </string-array>
+
+    <string-array name="p_eggs">
+        <item>Chicken eggs</item>
+        <item>Duck eggs</item>
+        <item>Goose eggs</item>
+        <item>Quail eggs</item>
+        <item>Turkey eggs</item>
+        <item>Ostrich eggs</item>
+    </string-array>
+
+    <string-array name="p_salads">
+        <item>Greek salad</item>
+        <item>Potato salad</item>
+        <item>Fruit salad</item>
+        <item>Chicken salad</item>
+        <item>Caesar salad</item>
+        <item>Bean salad</item>
+        <item>Egg salad</item>
+        <item>Dressed herring salad</item>
+        <item>Vinegret salad</item>
+        <item>Ambrosia salad</item>
+        <item>Waldorf salad</item>
+        <item>Tuna salad</item>
+    </string-array>
+
+    <string-array name="p_baked">
+        <item>Bread</item>
+        <item>Pretzel</item>
+        <item>Strudel</item>
+        <item>Croissant</item>
+        <item>Pie</item>
+        <item>Calzone</item>
+    </string-array>
+
+    <string-array name="p_sea_food">
+        <item>Fish</item>
+        <item>Shrimps</item>
+        <item>Crabs</item>
+        <item>Lobsters</item>
+        <item>Clams</item>
+        <item>Seaweed</item>
+    </string-array>
+
+    <string-array name="p_world_cuisine">
+        <item>French cuisine</item>
+        <item>Italian cuisine</item>
+        <item>Chinese cuisine</item>
+        <item>Indian cuisine</item>
+        <item>Thai cuisine</item>
+        <item>Mexican cuisine</item>
+        <item>Japanese cuisine</item>
+        <item>Spanish cuisine</item>
+        <item>Greek cuisine</item>
+        <item>Lebanese cuisine</item>
+    </string-array>
+
+
+
+    <string-array name="p_junk_food">
+        <item>Chips</item>
+        <item>Donuts</item>
+        <item>Peanut butter</item>
+        <item>Burger</item>
+        <item>Pizza</item>
+        <item>French fries</item>
+        <item>Sandwich</item>
+    </string-array>
+
+    <string-array name="p_spices">
+        <item>Basil</item>
+        <item>Dill</item>
+        <item>Salt</item>
+        <item>Paprika</item>
+        <item>Sugar</item>
+        <item>Cumin</item>
+        <item>Cinnamon</item>
+        <item>Nutmeg</item>
+        <item>Rosemary</item>
+        <item>Saffron</item>
+        <item>Sage</item>
+        <item>Garlic Powder</item>
+        <item>Oregano</item>
+        <item>Thyme</item>
+        <item>Parsley</item>
+        <item>Tarragon</item>
+    </string-array>
+
+    <string-array name="p_bevereges">
+        <item>Coffee</item>
+        <item>Tea</item>
+        <item>Juice</item>
+        <item>Soda</item>
+        <item>Energy drinks</item>
+    </string-array>
+
+    <string-array name="p_candies">
+        <item>Ice cream</item>
+        <item>Biscuits</item>
+        <item>Chocolate bar</item>
+        <item>Cake</item>
+        <item>Waffles</item>
+    </string-array>
+
+    <string-array name="p_alcohol">
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Vodka</item>
+        <item>Whiskey</item>
+        <item>Gin</item>
+        <item>Brandy</item>
+        <item>Liqueur</item>
+        <item>Rum</item>
+        <item>Tequila</item>
+    </string-array>
+
+    <string-array name="p_sauces">
+        <item>Ketchup</item>
+        <item>Mayonnaise</item>
+        <item>Mustard</item>
+        <item>Barbecue sauce</item>
+        <item>Chili</item>
+        <item>Tabasco</item>
+        <item>Enchilada</item>
+        <item>Mushroom</item>
+    </string-array>
+
+
+
+    <string-array name="v_potatoes">
+        <item>Potatoes</item>
+        <item>Russet</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Blue</item>
+        <item>Fingerling</item>
+        <item>Petite</item>
+        <item>Sweet</item>
+    </string-array>
+
+
+    <string-array name="v_carrots">
+        <item>Carrots</item>
+        <item>Baby carrots</item>
+    </string-array>
+    
+    <string-array name="v_tomatoes">
+        <item>Tomatoes</item>
+        <item>Globe</item>
+        <item>Cherry</item>
+        <item>Heirloom</item>
+        <item>Roma</item>
+        <item>Pear</item>
+    </string-array>
+
+    <string-array name="v_peppers">
+        <item>Peppers</item>
+        <item>Green peppers</item>
+        <item>Red peppers</item>
+        <item>Anaheim</item>
+        <item>Poblano</item>
+        <item>Cayenne</item>
+        <item>Guernica</item>
+        <item>Basque Fryer</item>
+        <item>Chilaca</item>
+        <item>Cherry peppers</item>
+        <item>Jalapeno</item>
+        <item>Habanero</item>
+    </string-array>
+
+    <string-array name="v_onion">
+        <item>Onion</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Leeks</item>
+        <item>Shallot</item>
+        <item>Scallion</item>
+        <item>Fresh onion</item>
+        <item>Green onion</item>
+        <item>Baby onion</item>
+    </string-array>
+
+    <string-array name="v_cucumbers">
+        <item>Cucumbers</item>
+        <item>Armenian</item>
+        <item>English</item>
+        <item>Garden</item>
+        <item>Kirby</item>
+        <item>Persian</item>
+    </string-array>
+
+    <string-array name="v_garlic">
+        <item>Garlic</item>
+        <item>Softneck</item>
+        <item>Hardneck</item>
+        <item>Elephant</item>
+    </string-array>
+
+   <string-array name="v_beans">
+       <item>Beans</item>
+       <item>Lima</item>
+       <item>Haricot</item>
+       <item>Kidney</item>
+       <item>Black</item>
+       <item>Pinto</item>
+       <item>Green</item>
+       <item>Mung</item>
+   </string-array>
+
+
+
+    <string-array name="f_apples">
+        <item>Apples</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Cortland</item>
+        <item>McIntosh</item>
+        <item>Golden Delicious</item>
+        <item>Red Delicious</item>
+        <item>Empire</item>
+        <item>Winesap</item>
+        <item>Fuji</item>
+        <item>Gala</item>
+    </string-array>
+
+    <string-array name="f_bananas">
+        <item>Bananas</item>
+        <item>Cavendish</item>
+        <item>Manzano</item>
+        <item>Nino</item>
+        <item>Burro</item>
+        <item>Red</item>
+        <item>Plantain</item>
+    </string-array>
+
+    <string-array name="f_oranges">
+        <item>Orange</item>
+        <item>Navel</item>
+        <item>Valencia</item>
+        <item>Moro</item>
+        <item>Cara Cara</item>
+    </string-array>
+
+    <string-array name="f_mandarin">
+        <item>Mandarin</item>
+        <item>Clementine</item>
+        <item>Satsuma</item>
+        <item>Tangerine</item>
+        <item>Tangor</item>
+    </string-array>
+
+    <string-array name="f_lemon">
+        <item>Lemon</item>
+        <item>Eureka</item>
+        <item>Meyer</item>
+    </string-array>
+
+    <string-array name="f_peaches">
+        <item>Peaches</item>
+        <item>Yellow-Flesh</item>
+        <item>White-Flesh</item>
+        <item>Clingstone</item>
+        <item>Freestone</item>
+        <item>Peento</item>
+    </string-array>
+    
+    
+    
+    <string-array name="m_chicken">
+        <item>Chicken</item>
+        <item>Breasts</item>
+        <item>Wings</item>
+        <item>Cutlets</item>
+        <item>Whole Chicken leg</item>
+        <item>Drumstick</item>
+        <item>Fillets</item>
+        <item>Chicken breast strips</item>
+    </string-array>
+
+    <string-array name="m_pig">
+        <item>Pork</item>
+        <item>Bacon</item>
+        <item>Ham</item>
+        <item>Ribs</item>
+        <item>Loin chops</item>
+    </string-array>
+
+    <string-array name="m_veal">
+        <item>Veal</item>
+        <item>Rib chops</item>
+        <item>Loin chops</item>
+        <item>Sirloin chops</item>
+        <item>Breast</item>
+        <item>Leg cutlet(Boneless)</item>
+        <item>Leg cutlet (Bone-In)</item>
+        <item>Leg Scallopini</item>
+        <item>Shoulder blade chops</item>
+        <item>Shoulder round bone chops</item>
+        <item>Shoulder scallopin</item>
+        <item>Boneless shoulder roast</item>
+        <item>Veal cubed steak</item>
+        <item>Veal stew meat</item>
+    </string-array>
+
+    <string-array name="m_lamb">
+        <item>Lamb</item>
+        <item>Rib chops</item>
+        <item>Loin chops</item>
+        <item>Rack of Lamb</item>
+        <item>Neck slices</item>
+        <item>Square-cut shoulder</item>
+        <item>Arm shoulder chop </item>
+        <item>Leg</item>
+        <item>Stew meat</item>
+    </string-array>
+
+    <string-array name="m_duck">
+        <item>Duck</item>
+        <item>Breasts</item>
+        <item>Wings</item>
+        <item>Cutlets</item>
+        <item>Whole duck leg</item>
+        <item>Drumstick</item>
+        <item>Fillets</item>
+    </string-array>
+
+    <string-array name="m_goose">
+        <item>Goose</item>
+        <item>Breasts</item>
+        <item>Wings</item>
+        <item>Cutlets</item>
+        <item>Whole goose leg</item>
+        <item>Drumstick</item>
+        <item>Fillets</item>
+    </string-array>
+
+    <string-array name="m_turkey">
+        <item>Turkey</item>
+        <item>Breasts</item>
+        <item>Wings</item>
+        <item>Cutlets</item>
+        <item>Whole turkey leg</item>
+        <item>Drumstick</item>
+        <item>Fillets</item>
+    </string-array>
+
+
+
+
+    <string-array name="b_bread">
+        <item>Bread</item>
+        <item>Bagel</item>
+        <item>Baguette</item>
+        <item>Black</item>
+        <item>Tortilla</item>
+    </string-array>
+
+    <string-array name="bev_tea">
+        <item>Tea</item>
+        <item>Black</item>
+        <item>Grean</item>
+    </string-array>
+
+    <string-array name="bev_juice">
+        <item>Juice</item>
+        <item>Orange</item>
+        <item>Apple</item>
+    </string-array>
+</resources>

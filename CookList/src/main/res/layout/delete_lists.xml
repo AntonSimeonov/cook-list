@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:weightSum="100"
+        >
+    <TextView
+        android:id="@+id/tvActualItemsForDeleteon"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:textColor="@color/skyBlue"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_weight="90"
+
+        />
+    <ListView
+        android:id="@+id/lvItemsForDeletion"
+        android:layout_weight="10"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="90"
+        android:weightSum="100"
+        >
+        <Button
+            android:id="@+id/bCancelDeleteItems"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="50"
+            android:text="@string/cancel"
+            />
+        <Button
+            android:id="@+id/bOkDeleteItems"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="50"
+            android:text="@string/ok"
+            />
+        </LinearLayout>
+
+</LinearLayout>

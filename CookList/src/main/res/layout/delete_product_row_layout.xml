@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100"
+        >
+
+    <CheckBox
+            android:id="@+id/cbProductForDeletion"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:checked="false"
+            />
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="25"
+
+            >
+
+
+        <TextView
+                android:id="@+id/tvProductForDeletion"
+                android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_delete_product_row_layout_product"
+                />
+        <TextView
+                android:id="@+id/tvProductNameForDeletion"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_delete_product_row_layout_product_name"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="35"
+            >
+
+
+        <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+
+                >
+            <TextView
+                    android:id="@+id/bSubstractQuantityForDeletion"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:text="- "
+                    />
+
+            <TextView
+                    android:id="@+id/tvQuantityForDeletion"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_delete_product_row_layout_quantity"
+                    />
+            <TextView
+                    android:id="@+id/bAddQuantityForDeletion"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" +"
+                    />
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/tvPriceForDeletion"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_delete_product_row_layout_price"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="40"
+            >
+
+        <TextView
+                android:id="@+id/tvUnitForDeletion"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_delete_product_row_layout_unit"
+                />
+        <TextView
+            android:id="@+id/tvCurrencyForDeletion"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Currency"
+            />
+    </LinearLayout>
+
+</LinearLayout>

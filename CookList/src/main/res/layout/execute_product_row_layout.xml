@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100"
+        >
+
+    <CheckBox
+            android:id="@+id/cbProductForExecution"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:focusable="false"
+            android:checked="false"
+            />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="20"
+            >
+
+
+        <TextView
+                android:id="@+id/tvProductForExecution"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_execute_product_row_layout_product"
+                />
+        <TextView
+                android:id="@+id/tvProductNameForExecution"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:text="@string/tv_execute_product_row_layout_product_name"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="40"
+            >
+
+
+        <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+
+                >
+
+
+            <TextView
+                    android:id="@+id/tvQuantityForExecution"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_execute_product_row_layout_quantity"
+                    />
+
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/tvPriceForExecution"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_execute_product_row_layout_price"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="40"
+            >
+
+        <TextView
+                android:id="@+id/tvUnitForExecution"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_execute_product_row_layout_unit"
+                />
+        <TextView
+                android:id="@+id/tvCurrencyForExecution"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/tv_execute_product_row_layout_currency"
+                />
+
+    </LinearLayout>
+
+
+</LinearLayout>

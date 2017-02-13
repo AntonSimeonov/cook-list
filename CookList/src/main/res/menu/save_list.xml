@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/saveListWithProductsInDB"
+        android:title="@string/i_menu_save_list_save"
+        android:icon="@drawable/content_save"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/deleteListProduct"
+          android:title="@string/i_menu_save_list_delete_products"
+        android:icon="@drawable/content_discard"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@id/miMenu"
+        android:title="@string/main_menu"
+        app:showAsAction="never"/>
+    <item android:id="@+id/miSettingsSaveList"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

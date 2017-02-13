@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100"
+        >
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="35"
+
+            >
+    <TextView
+        android:id="@+id/tvProduct"
+        android:paddingLeft="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:text="@string/tv_product_row_layout_product"
+        />
+    <TextView
+            android:id="@+id/tvProductName"
+        android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:text="@string/tv_product_row_layout_product_name"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="70"
+        android:weightSum="100"
+        >
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="30"
+            >
+
+
+        <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+
+                >
+            <TextView
+                    android:id="@+id/bSubstractQuantity"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/redish"
+                    android:text="- "
+                    />
+
+                <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:text="@string/tv_product_row_layout_quantity"
+                />
+            <TextView
+                    android:id="@+id/bAddQuantity"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/redish"
+                    android:text=" +"
+                    />
+
+         </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/tvPrice"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:text="@string/tv_product_row_layout_price"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="70"
+            >
+
+        <TextView
+                android:id="@+id/tvUnit"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:text="@string/tv_product_row_layout_unit"
+                />
+        <TextView
+                android:id="@+id/tvCurrency"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:text="@string/tv_product_row_layout_currency"
+                />
+
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

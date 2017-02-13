@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tvExecuteListName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+        android:background="@drawable/heder_exe2"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textAllCaps="true"
+            />
+    <TextView
+            android:id="@+id/tvExecuteListSum"
+        android:textColor="@color/greysh"
+        android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:text="@string/tv_execute_list_sum"
+            />
+    <TextView
+        android:id="@+id/tvExecuteListNumberOfProducts"
+        android:textColor="@color/greysh"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/tv_execute_list_number_of_products"
+        />
+    <ListView
+            android:id="@+id/lvExecuteListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+            android:choiceMode="multipleChoice"
+            />
+
+</LinearLayout>

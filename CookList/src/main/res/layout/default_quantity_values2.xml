@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="@color/orangeRed"
+        android:text="@string/tv_default_quantity_values_mes"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:id="@+id/tvDefaultQuantity010"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:textColor="@color/greysh"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:text="0.100"
+            />
+
+        <TextView
+            android:id="@+id/tvDefaultQuantity025"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@color/greysh"
+            android:layout_weight="20"
+            android:text="0.250"
+            />
+        <TextView
+            android:id="@+id/tvDefaultQuantity050"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/greysh"
+            android:clickable="true"
+            android:layout_weight="20"
+            android:text="0.500"
+            />
+        <TextView
+            android:id="@+id/tvDefaultQuantity075"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:textColor="@color/greysh"
+            android:text="0.750"
+            />
+
+        <TextView
+            android:id="@+id/tvDefaultQuantity0"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:textColor="@color/redish"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:text="@string/none"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:weightSum="100"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:id="@+id/tvDefaultQuantity1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:clickable="true"
+            android:textColor="@color/greysh"
+            android:gravity="center"
+            android:layout_weight="20"
+                android:text="@string/tv_default_quantity_values_one"
+                />
+
+        <TextView
+                android:id="@+id/tvDefaultQuantity2"
+                android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:clickable="true"
+            android:gravity="center"
+            android:textColor="@color/greysh"
+            android:layout_weight="20"
+                android:text="@string/tv_default_quantity_values_two"
+                />
+        <TextView
+                android:id="@+id/tvDefaultQuantity3"
+                android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/greysh"
+                android:clickable="true"
+            android:layout_weight="20"
+                android:text="@string/tv_default_quantity_values_three"
+                />
+        <TextView
+                android:id="@+id/tvDefaultQuantity4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:layout_weight="20"
+            android:textColor="@color/greysh"
+                android:text="@string/tv_default_quantity_values_four"
+                />
+
+        <TextView
+                android:id="@+id/tvDefaultQuantityManualy"
+                android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:clickable="true"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textColor="@color/orangeRed"
+                android:text="@string/tv_default_quantity_values_keyboard"
+                />
+
+    </LinearLayout>
+</LinearLayout>

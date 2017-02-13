@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CookList/CookList.iml" filepath="$PROJECT_DIR$/CookList/CookList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CookListProject.iml" filepath="$PROJECT_DIR$/CookListProject.iml" />
+    </modules>
+  </component>
+</project>
+

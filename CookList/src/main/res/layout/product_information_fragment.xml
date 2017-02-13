@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="@color/orangeRed"
+            android:text="@string/tv_product_information_fragment_info"
+            />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_width="fill_parent">
+
+
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitGr"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/greysh"
+            android:text="@string/grams"
+            android:layout_weight="25"
+            />
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitKg"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/greysh"
+            android:text="@string/kg"
+            android:layout_weight="25"
+            />
+
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitLb"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/greysh"
+            android:text="@string/pound"
+            android:layout_weight="25"
+            />
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitNone"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/redish"
+            android:text="@string/none"
+            android:layout_weight="25"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitMlitr"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/greysh"
+            android:text="@string/mlitr"
+            android:layout_weight="25"
+            />
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitLitr"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/greysh"
+            android:text="@string/litr"
+            android:layout_weight="25"
+            />
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitOz"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textColor="@color/greysh"
+            android:text="@string/ounce"
+            android:layout_weight="25"
+            />
+        <TextView
+            android:id="@+id/tvProductInfoFragmentUnitKeyBoard"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textColor="@color/orangeRed"
+            android:textSize="20dp"
+            android:layout_weight="25"
+            android:text="@string/tv_default_quantity_values_keyboard"
+            />
+    </LinearLayout>
+</LinearLayout>

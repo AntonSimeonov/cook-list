@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+
+    <ImageView
+        android:id="@+id/ivCustomSimpleGridProductAdapter"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="90"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="10"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/tvLeftItemBoreder"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/sl_greysh"
+
+            />
+    <TextView
+        android:id="@+id/tvCustomSimpleGridProductAdapterName"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="5dp"
+
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/tvRightItemBoreder"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/sl_greysh"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

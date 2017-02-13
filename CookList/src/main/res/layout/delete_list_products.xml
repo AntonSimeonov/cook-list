@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvDeleteListProductsStatement"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+
+        android:layout_gravity="center"
+        android:background="@drawable/header_del"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/delete_list_products"
+        />
+    <TextView
+            android:id="@+id/tvSumOfSelectedProducts"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:text=""
+            />
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+    <ListView
+            android:id="@+id/lvListProductsForDeletion"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_weight="15"
+            android:choiceMode="multipleChoice"
+            />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        android:layout_weight="85"
+            android:weightSum="100"
+            >
+        <Button
+            android:id="@+id/bCancelDeleteProducts"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/b_delete_list_products_cancel"
+            android:layout_weight="50"
+            />
+        <Button
+                android:id="@+id/bOkDeleteProducts"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/b_delete_list_products_ok"
+                android:layout_weight="50"
+                />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

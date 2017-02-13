@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="greysh">#bc394a4e</color>
+    <color name="sl_greysh">#D1D0CE</color>
+    <color name="def">#ff344a4e</color>
+    <color name="redish">#dc0027</color>
+    <color name="greenish">#a6ff4d</color>
+    <color name="pinkish">#ee5673</color>
+    <color name="skyBlue">#00e9ff</color>
+    <color name="orangeRed">#ff7100</color>
+    <color name="light_violet">#AA66CC</color>
+    <color name="dark_violet">#9933CC</color>
+
+    <color name="light_green">#99CC00</color>
+    <color name="dark_green">#669900</color>
+
+    <color name="light_red">#FF4444</color>
+    <color name="dark_red">#CC0000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>

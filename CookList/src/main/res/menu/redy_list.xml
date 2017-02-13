@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/miRedyListNewList"
+        android:title="@string/main_menu_new_list"
+        android:icon="@drawable/content_new"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/mSendEmailListProduct"
+          android:title="@string/i_menu_redy_list_send"
+        android:icon="@drawable/content_email"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/mExecListProducts"
+          android:title="@string/i_menu_redy_list_execute"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/mEditListProducts"
+          android:title="@string/i_menu_redy_list_edit"
+        android:icon="@drawable/content_edit"
+          app:showAsAction="ifRoom"
+          />
+    <item android:id="@id/miMenu"
+        android:title="@string/main_menu"
+        app:showAsAction="never"/>
+    <item android:id="@+id/miSettingsRedyList"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        />
+</menu>

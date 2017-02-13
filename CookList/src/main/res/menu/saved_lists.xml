@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/miNewList"
+        android:title="@string/main_menu_new_list"
+        android:icon="@drawable/content_new"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/miDeleteLists"
+        android:title="@string/delete_lists"
+        android:icon="@drawable/content_discard"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@id/miMenu"
+        android:title="@string/main_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/miSettings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/content_discard"
+        app:showAsAction="never"
+        />
+</menu>

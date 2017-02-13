@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvNewListName"
+            android:text="@string/tv_new_list_name"
+        android:gravity="center"
+        android:textColor="@color/skyBlue"
+        android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            />
+    <EditText
+            android:id="@+id/etNewListName"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+
+            />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            >
+    <Button
+            android:id="@+id/bCancelNewListName"
+            android:text="@string/b_new_list_name_cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="50"
+            />
+        <Button
+                android:id="@+id/bSendNewListName"
+                android:text="@string/b_new_list_name_ok"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="50"
+                />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Зеленчуци</item>
+        <item>Плодове</item>
+        <item>Месо</item>
+        <item>Сирене</item>
+        <item>Мляко</item>
+        <item>Яйца</item>
+        <item>Салати</item>
+        <item>Тестени изделия</item>
+        <item>Морска храна</item>
+        <item>Джънк фууд</item>
+        <item>Сосове</item>
+        <item>Подправки</item>
+        <item>Сладки</item>
+        <item>Напитки</item>
+        <item>Алкохол</item>
+    </string-array>
+
+    <string-array name="p_vegetables">
+        <item>Картофи</item>
+        <item>Моркови</item>
+        <item>Домати</item>
+        <item>Чушки</item>
+        <item>Лук</item>
+        <item>Краставици</item>
+        <item>Броколи</item>
+        <item>Чесън</item>
+        <item>Фасул</item>
+        <item>Гъби</item>
+        <item>Аспержи</item>
+        <item>Карфиол</item>
+        <item>Маслини</item>
+        <item>Зеле</item>
+        <item>Патладжан</item>
+    </string-array>
+
+    <string-array name="p_fruits">
+        <item>Ябълки</item>
+        <item>Банани</item>
+        <item>Портокали</item>
+        <item>Лимони</item>
+        <item>Кайсия</item>
+        <item>Праскови</item>
+        <item>Слива</item>
+        <item>Пъпеш</item>
+        <item>Мандарин</item>
+        <item>Диня</item>
+        <item>Грозде</item>
+        <item>Киви</item>
+        <item>Грейпфрут</item>
+        <item>Череши</item>
+        <item>Къпини</item>
+        <item>Ягоди</item>
+        <item>Малини</item>
+        <item>Кокосов орех</item>
+    </string-array>
+
+    <string-array name="p_meat">
+        <item>Пилешко</item>
+        <item>Свинско</item>
+        <item>Телешко</item>
+        <item>Заешко</item>
+        <item>Агнешко</item>
+        <item>Патешко</item>
+        <item>Гъше</item>
+        <item>Пуешко</item>
+        <item>Наденици</item>
+        <item>Салами</item>
+    </string-array>
+
+    <string-array name="p_cheese">
+        <item>Синьо сирене</item>
+        <item>Фета</item>
+        <item>Дунавия</item>
+        <item>Крема сирене</item>
+        <item>Каманбер</item>
+        <item>Рокфор</item>
+        <item>Моцарелла</item>
+        <item>Бри</item>
+        <item>Чедар</item>
+    </string-array>
+
+   <string-array name="p_milk">
+       <item>Мляко</item>
+       <item>Масло</item>
+       <item>Кисело мляко</item>
+       <item>Сметана</item>
+       <item>Извара</item>
+   </string-array>
+
+    <string-array name="p_eggs">
+        <item>Пилешки</item>
+        <item>Патешки</item>
+        <item>Гъши</item>
+        <item>Пъдпъдъчи</item>
+        <item>Пуешки</item>
+    </string-array>
+
+    <string-array name="p_salads">
+        <item>Шопска</item>
+        <item>Картофена</item>
+        <item>Плодова</item>
+        <item>Овчарска</item>
+        <item>Снежанка</item>
+        <item>Руска</item>
+        <item>Гръцка</item>
+        <item>Пилешка</item>
+        <item>Цезар</item>
+        <item>С фасул</item>
+        <item>Яйчена</item>
+    </string-array>
+
+    <string-array name="p_baked">
+        <item>Хляб</item>
+        <item>Баница</item>
+        <item>Щрудел</item>
+        <item>Кекс</item>
+        <item>Кроасан</item>
+        <item>Пай</item>
+    </string-array>
+
+    <string-array name="p_sea_food">
+        <item>Риба</item>
+        <item>Скариди</item>
+        <item>Раци</item>
+        <item>Омари</item>
+        <item>Миди</item>
+        <item>Водорасли</item>
+    </string-array>
+
+    <string-array name="p_world_cuisine">
+        <item>French cuisine</item>
+        <item>Italian cuisine</item>
+        <item>Chinese cuisine</item>
+        <item>Indian cuisine</item>
+        <item>Thai cuisine</item>
+        <item>Mexican cuisine</item>
+        <item>Japanese cuisine</item>
+        <item>Spanish cuisine</item>
+        <item>Greek cuisine</item>
+        <item>Lebanese cuisine</item>
+    </string-array>
+
+
+
+    <string-array name="p_junk_food">
+        <item>Чипс</item>
+        <item>Понички</item>
+        <item>Фъстъчено масло</item>
+        <item>Буркери</item>
+        <item>Пица</item>
+        <item>Пуржени картофки</item>
+        <item>Сандвичи</item>
+</string-array>
+
+    <string-array name="p_spices">
+        <item>Босилек</item>
+        <item>Копър</item>
+        <item>Сол</item>
+        <item>Червен пипер</item>
+        <item>Захар</item>
+        <item>Кимон</item>
+        <item>Канела</item>
+        <item>Индийско орехче</item>
+        <item>Чесън на прах</item>
+        <item>Розмарин</item>
+        <item>Риган</item>
+        <item>Мащерка</item>
+        <item>Магданоз</item>
+        <item>Естрагон</item>
+    </string-array>
+
+    <string-array name="p_bevereges">
+        <item>Кафе</item>
+        <item>Чай</item>
+        <item>Сок</item>
+        <item>Сода</item>
+        <item>Енергийни напидки</item>
+    </string-array>
+
+    <string-array name="p_candies">
+        <item>Сладолед</item>
+        <item>Бисквити</item>
+        <item>Шоколадово блокче</item>
+        <item>Торти</item>
+        <item>Вафли</item>
+    </string-array>
+
+    <string-array name="p_alcohol">
+        <item>Бира</item>
+        <item>Вино</item>
+        <item>Ракия</item>
+        <item>Водка</item>
+        <item>Уиски</item>
+        <item>Джин</item>
+        <item>Бренди</item>
+        <item>Ликьор</item>
+        <item>Ром</item>
+        <item>Текила</item>
+    </string-array>
+
+    <string-array name="p_sauces">
+        <item>Кетчуп</item>
+        <item>Майонеза</item>
+        <item>Горчица</item>
+        <item>Лютеница</item>
+        <item>Барбекю сос</item>
+        <item>Чили</item>
+        <item>Табаско</item>
+        <item>Гъбен</item>
+    </string-array>
+
+
+
+    <string-array name="v_potatoes">
+        <item>Картофи</item>
+        <item>Самоковски</item>
+    </string-array>
+
+
+    <string-array name="v_carrots">
+        <item>Моркови</item>
+        <item>Бейби морковчета</item>
+    </string-array>
+    
+    <string-array name="v_tomatoes">
+        <item>Домати</item>
+        <item>Чери</item>
+        <item>Биволско сърце</item>
+        <item>Марица</item>
+    </string-array>
+
+    <string-array name="v_peppers">
+        <item>Чушки</item>
+        <item>Зелени</item>
+        <item>Червени</item>
+        <item>Люти</item>
+        <item>Камба</item>
+        <item>Чорбаджийска чушка</item>
+    </string-array>
+
+    <string-array name="v_onion">
+        <item>Лук</item>
+        <item>Стар</item>
+        <item>Кромид</item>
+        <item>Пресен</item>
+        <item>Праз лук</item>
+    </string-array>
+
+    <string-array name="v_cucumbers">
+        <item>Краставици</item>
+        <item>Гергана</item>
+        <item>Корнишони</item>
+    </string-array>
+
+    <string-array name="v_garlic">
+        <item>Чесън</item>
+        <item>Стар</item>
+        <item>Пресен</item>
+    </string-array>
+
+   <string-array name="v_beans">
+       <item>Фасул</item>
+       <item>Лима</item>
+       <item>Смилянски</item>
+       <item>Зелен</item>
+       <item>Черен</item>
+   </string-array>
+
+    <string-array name="f_apples">
+        <item>Ябълки</item>
+        <item>Червени</item>
+        <item>Зелени</item>
+        <item>Жълти</item>
+        <item>Макинтош</item>
+
+    </string-array>
+
+    <string-array name="f_bananas">
+        <item>Банани</item>
+        <item>Кавендиш</item>
+    </string-array>
+
+    <string-array name="f_oranges">
+        <item>Портокали</item>
+        <item>Валенсия</item>
+        <item>Моро</item>
+    </string-array>
+
+    <string-array name="f_mandarin">
+        <item>Мандарин</item>
+        <item>Клементайн</item>
+    </string-array>
+
+    <string-array name="f_lemon">
+        <item>Лимони</item>
+        <item>Еврика</item>
+        <item>Майер</item>
+    </string-array>
+
+    <string-array name="f_peaches">
+        <item>Праскови</item>
+        <item>Червена</item>
+        <item>Бяла</item>
+        <item>Пеенто</item>
+    </string-array>
+    
+    
+    
+    <string-array name="m_chicken">
+        <item>Пилешко</item>
+        <item>Пилешки гърди</item>
+        <item>Крилца</item>
+        <item>Котлети</item>
+        <item>Пилешка кълка</item>
+        <item>Филе</item>
+    </string-array>
+
+    <string-array name="m_pig">
+        <item>Свинско</item>
+        <item>Бекон</item>
+        <item>Шунка</item>
+        <item>Ребърца</item>
+        <item>Филе пържоли</item>
+    </string-array>
+
+    <string-array name="m_veal">
+        <item>Телешко</item>
+        <item>Ребърца</item>
+        <item>Филе пържоли</item>
+        <item>Телешки гърди</item>
+        <item>Котлет от бут(без кокъл)</item>
+        <item>Котлет от бут(с кокъл)</item>
+        <item>Телешко за супа</item>
+    </string-array>
+
+    <string-array name="m_lamb">
+        <item>Агнешко</item>
+        <item>Ребърца</item>
+        <item>Филе пържоли</item>
+        <item>Бут</item>
+        <item>Агнешко за супа</item>
+    </string-array>
+
+    <string-array name="m_duck">
+        <item>Патешко</item>
+        <item>Патешки гърди</item>
+        <item>Котлети</item>
+        <item>Патешко бутче</item>
+        <item>Филеа</item>
+    </string-array>
+
+    <string-array name="m_goose">
+        <item>Гъше</item>
+        <item>Гъши гърди</item>
+        <item>Котлети</item>
+        <item>Гъше бутче</item>
+        <item>Филе</item>
+    </string-array>
+
+    <string-array name="m_turkey">
+        <item>Пуешко</item>
+        <item>Пуешки гърди</item>
+        <item>Крилца</item>
+        <item>Котлети</item>
+        <item>Пуешко бутче</item>
+        <item>Филе</item>
+    </string-array>
+
+
+    <string-array name="b_bread">
+        <item>Хляб</item>
+        <item>Геврек</item>
+        <item>Франзела</item>
+        <item>Черен</item>
+    </string-array>
+
+    <string-array name="bev_tea">
+        <item>Чай</item>
+        <item>Черен</item>
+        <item>Зелен</item>
+    </string-array>
+
+    <string-array name="bev_juice">
+        <item>Сок</item>
+        <item>Портокалов</item>
+        <item>Ябълков</item>
+    </string-array>
+</resources>
